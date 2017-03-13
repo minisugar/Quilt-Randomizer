@@ -2,13 +2,10 @@ import random
 import numpy as np
 
 h = int(input("How many rows is your quilt? "))
-10
 w = int(input("How many columns is your quilt? "))
-10
 total = (h * w)
 
 p = int(input("Enter number of quilt block patterns: "))
-10
 mypatterns = dict((el,0) for el in range(p))
 
 
